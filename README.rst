@@ -1,6 +1,9 @@
 Fabric-Verbose
 ==============
 
+.. image:: https://badge.fury.io/py/fabric-verbose.svg
+   :target: http://badge.fury.io/py/fabric-verbose
+
 At a glance
 -----------
 
