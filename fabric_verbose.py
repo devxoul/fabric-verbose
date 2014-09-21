@@ -46,6 +46,6 @@ class verbose():
             if rv.return_code:
                 self.failed = True
                 print self.colors.red(" Failed")
-                abort_msg = rv.stderr or rv.stdout
+                abort_msg = rv.stderr.strip() or rv.stdout.strip()
                 self.operations.abort(self.colors.red(abort_msg))
         return __execute
